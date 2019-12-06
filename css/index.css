@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    padding: 5%;
 }
 ol, ul {
 	list-style: none;
@@ -51,6 +52,38 @@ table {
     box-sizing: border-box;
 }
 
+nav.navigation{
+	color: black;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	/* border: solid red 2px; */
+    flex-flow: row;
+    width: 68%;
+    background: white;
+    padding: 20px 2%;
+    margin: auto;
+}
+
+
+
+.navigation a{
+    padding: 2%;
+	text-decoration: none;
+    color: black;}
+#lambdaImg{
+    margin-right: 1%;
+}
+ 
+ #topImg{
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 2%;
+    margin: auto;
+    /* font-size: 14px; */
+ }
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -110,6 +143,45 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#bone{
+    background:teal;
+}
+
+#btwo{
+    background:gold;
+}
+
+#bthree{
+    background:cadetblue
+}
+
+#bfour{
+    background: coral;
+}
+
+#bfive{
+    background:crimson;
+}
+
+#bsix{
+    background:forestgreen;
+}
+
+#bseven{
+    background:darkorchid;
+}
+
+#beight{
+    background:hotpink;
+}
+
+#bnine{
+    background:indigo;
+}
+
+#bten{
+    background:dodgerblue;
 }
 
 .bottom-content {
